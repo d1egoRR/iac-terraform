@@ -2,7 +2,7 @@
 
 Repositorio de prácticas para aprender Infrastructure as Code (IaC) con Terraform y AWS. Los ejercicios están separados por tema y deben ejecutarse desde su propia carpeta.
 
-## Contenido
+## Contenido IAC-1/1
 
 - `1 - IAC-1/1 - basics`: configuración inicial de Terraform y creación de una instancia EC2.
 - `1 - IAC-1/2 - variables`: uso de variables y valores configurables.
@@ -37,12 +37,6 @@ terraform destroy
 
 Repite el flujo desde la carpeta de cada ejercicio. No ejecutes `apply` o `destroy` desde la raíz del repositorio.
 
-## Seguridad y costes
-
-**No ejecutes los ejemplos sin revisar sus credenciales.** Hay al menos un archivo de práctica con claves de AWS escritas directamente en la configuración. Si son claves reales o pudieron compartirse, revócalas y crea otras nuevas. No guardes credenciales en archivos `.tf`, en el control de versiones ni en archivos `.tfvars` compartidos; usa credenciales externas, como un perfil de AWS o un rol IAM.
-
-El `.gitignore` excluye estados locales, archivos de variables y otros artefactos de Terraform. Esto no elimina archivos que ya estuvieran versionados. Las operaciones de AWS pueden generar costes; revisa los recursos y permisos antes de aplicar cambios.
-
 ## Referencia
 
-- [Video de referencia](https://www.youtube.com/watch?v=Z94DYoF5ufg&t=30s)
+- [Video de referencia](https://www.youtube.com/watch?v=Z94DYoF5ufg)
